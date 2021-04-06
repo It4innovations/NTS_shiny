@@ -1,0 +1,46 @@
+Package: NTS.shiny
+Title: Network traversal simulator app
+Version: 0.1.0
+Author: Tomas Martinovic [aut, cre] (<https://orcid.org/0000-0002-0132-1434>)
+  Radek Halfar [aut] (<https://orcid.org/0000-0003-1453-0101>)
+  Ladislav Foltyn [aut] (<https://orcid.org/0000-0002-2953-1628>)
+  Judita Buchlovska Nagyova [ctb] (<https://orcid.org/0000-0001-7782-4268>)
+Author@R: c(person(given = "Tomas",
+                   family = "Martinovic",
+                   role = c("aut", "cre"),
+                   email = "tomas.martinovic@vsb.cz",
+                   comment = c(ORCID = "0000-0002-0132-1434")),
+            person(given = "Radek",
+                   family = "Halfar",
+                   role = "aut",
+                   comment = c(ORCID = "0000-0003-1453-0101")),
+            person(given = "Ladislav",
+                   family = "Foltyn",
+                   role = "aut"),
+                   comment = c(ORCID = "0000-0002-2953-1628")),
+            person(given = "Judita",
+                   family = "Buchlovska Nagyova",
+                   role = "ctb",
+                   comment = c(ORCID = "0000-0001-7782-4268")))
+Maintainer: Tomas Martinovic <tomas.martinovic@vsb.cz>
+Description: This package contains shiny app for simulation of the network traversal based on the NTS package (https://github.com/It4innovations/NTS).
+License: GPL-3 + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny,
+    shinyWidgets,
+    htmltools,
+    thinkr,
+    bs4Dash (>= 2.0.0),
+    tippy,
+    NTS,
+    magrittr,
+    plotly,
+    shinyjs,
+    waiter,
+    dplyr,
+    rlang
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
