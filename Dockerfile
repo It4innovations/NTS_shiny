@@ -25,4 +25,4 @@ ADD . /build_zone
 WORKDIR /build_zone
 RUN R -e 'remotes::install_local(upgrade="never")'
 EXPOSE 3838
-CMD  ["R", "-e", "options('shiny.port'=3838,shiny.host='0.0.0.0');msk.covid.app::run_app()"]
+CMD  ["R", "-e", "options('shiny.port'=3838,shiny.host='0.0.0.0');NTS.shiny::run_app()"]
