@@ -48,6 +48,11 @@ app_ui <- function(request) {
             icon = shiny::icon("play-circle")
           ),
           bs4Dash::menuItem(
+            text = "How to",
+            tabName = "howto",
+            icon = shiny::icon("question-circle")
+          ),
+          bs4Dash::menuItem(
             text = "Credits",
             tabName = "credits",
             icon = shiny::icon("copyright")
@@ -63,6 +68,8 @@ app_ui <- function(request) {
                            mod_network_ui("network_1")),
           bs4Dash::tabItem(tabName = "simulation",
                            mod_simulator_ui("simulator_1")),
+          bs4Dash::tabItem(tabName = "howto",
+                           mod_howto_ui()),
           bs4Dash::tabItem(tabName = "credits",
                            mod_credits_ui())
         )

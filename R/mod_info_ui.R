@@ -65,6 +65,21 @@ mod_info_ui <- function() {
         queue problems should be possible to simulate using this application.
         The backend is mainly the NTS package.
         ')),
+    box(
+      title = "How To Start",
+      status = "primary",
+      solidHeader = TRUE,
+      width = 12,
+      collapsible = TRUE,
+      closable = FALSE,
+      p('Go to "Setup" tab and click on "create new network" or load an existing
+        network by clicking on "Browse". Further details are available in "How to"
+        tab.'
+      ),
+      img(src="img/create_net.gif", width="100%", style="max-width: 800px; 
+          display: block; margin-left: auto; margin-right: auto;
+          border: 2px solid #ddd; border-radius:0.4rem")
+    ),
       box(
         title = "Setup",
         status = "primary",
