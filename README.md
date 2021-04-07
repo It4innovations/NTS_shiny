@@ -26,44 +26,44 @@ sudo docker build . -t tag_name
 
 # How to use application
 ## Create network
-To create a network, you just simply click on create new network in shiny app. Further, you select number of sets, number of vertices in each set, and weights of the edges in each set.
+To create a network, you just simply click on create new network in shiny app. Further, you select number of sets, number of vertices in each set, and weights of the edges in each set. Numbers which represent the weights of the edges are in the sense "How many people could go through each edge in time".
 
-![](https://github.com/It4innovations/NTS_shiny/blob/dev/giffs/create_net.gif)
+![](https://github.com/It4innovations/NTS_shiny/blob/dev/inst/app/img/create_net.gif)
 
 ## Add fully connected sets
-By the button "add fully connected" you are able to create a new level of sets which will be fully connected to the sets of the previous level. Further, you select number of sets, number of vertices in each set, and weights of the edges in each set.
+By the button "add fully connected" you are able to create a new level of sets which will be fully connected to the sets of the previous level. Further, you select number of sets, number of vertices in each set, and weights of the edges in each set. Numbers which represent the weights of the edges are in the sense "How many people could go through each edge in time".
 
-![](https://github.com/It4innovations/NTS_shiny/blob/dev/giffs/add_fully.gif)
+![](https://github.com/It4innovations/NTS_shiny/blob/dev/inst/app/img/add_fully.gif)
 
 ## Add custom sets
-By the button "add level set" you create a new level of sets in which you define mapping of the new vertices to the sets of the previous level. New vertex is mapped to the defined set of the previous level like fully connected. Further, you select number of sets, number of vertices in each set, and weights of the edges in each set.
+By the button "add level set" you create a new level of sets in which you define mapping of the new vertices to the sets of the previous level. New vertex is mapped to the defined set of the previous level like fully connected. Further, you select number of sets, number of vertices in each set, and weights of the edges in each set. Numbers which represent the weights of the edges are in the sense "How many people could go through each edge in time".
 
-![](https://github.com/It4innovations/NTS_shiny/blob/dev/giffs/add_sets.gif)
+![](https://github.com/It4innovations/NTS_shiny/blob/dev/inst/app/img/add_sets.gif)
 
-## Add exit node
+## Add exit
 To add an exit vertex, you use the button "add exit". The exit (or sink node) will be added and all works on the given network is done.
 
-![](https://github.com/It4innovations/NTS_shiny/blob/dev/giffs/add_exit.gif)
+![](https://github.com/It4innovations/NTS_shiny/blob/dev/inst/app/img/add_exit.gif)
 
 ## Remove level
 If there is some mistake in the network, you can remove last level by clicking on "remove last level".
 
-![](https://github.com/It4innovations/NTS_shiny/blob/dev/giffs/remove.gif)
+![](https://github.com/It4innovations/NTS_shiny/blob/dev/inst/app/img/remove.gif)
 
 ## Save network
 You can save an existing network by clicking on "save network as csv".
 
-![](https://github.com/It4innovations/NTS_shiny/blob/dev/giffs/save_net.gif)
+![](https://github.com/It4innovations/NTS_shiny/blob/dev/inst/app/img/save_net.gif)
 
 ## Load network
 You can import an existing network by clicking on "browse".
 
-![](https://github.com/It4innovations/NTS_shiny/blob/dev/giffs/load_net.gif)
+![](https://github.com/It4innovations/NTS_shiny/blob/dev/inst/app/img/load_net.gif)
 
 ## Start simulation
 To start simulation, you define number of people wich will go through the graph, click on "compute" button, and click on "play" at the bottom a network window. Cyan dots represents the free nodes in given time, and red nodes the full ones. 
 
-![](https://github.com/It4innovations/NTS_shiny/blob/dev/giffs/sim.gif)
+![](https://github.com/It4innovations/NTS_shiny/blob/dev/inst/app/img/sim.gif)
 
 # Acknowledgment
 
