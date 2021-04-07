@@ -13,7 +13,7 @@ app_ui <- function(request) {
     # bs4Dash page ----
     bs4Dash::dashboardPage(
       header = bs4Dash::dashboardHeader(
-        title = bs4Dash::dashboardBrand(title = "Vaccination center"),
+        title = bs4Dash::dashboardBrand(title = "NTS"),
         tagList(
           fluidRow(
             img(src = 'img/IT4I_with_borders_EN.svg', height = "60px"),
