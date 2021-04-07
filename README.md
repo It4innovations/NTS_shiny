@@ -24,6 +24,13 @@ You can also create this application in a docker container by running in the app
 sudo docker build . -t tag_name
 ```
 
+# How to use application
+## Create network
+
+To create a network, you just simply click on create new network in shiny app. Further, you select number of sets, number of vertices in each set, and weights of the edges in each set.
+![create_network](https://github.com/It4innovations/NTS_shiny/blob/dev/create_net.gif =250x250)
+
+
 # Acknowledgment
 
 This project has received funding from the European High-Performance Computing Joint Undertaking (JU) under grant agreement No 951732.
