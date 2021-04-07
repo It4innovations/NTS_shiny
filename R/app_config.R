@@ -5,7 +5,7 @@
 #' 
 #' @noRd
 app_sys <- function(...){
-  system.file(..., package = "msk.covid.app")
+  system.file(..., package = "NTS.shiny")
 }
 
 
